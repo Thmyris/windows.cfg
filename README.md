@@ -79,16 +79,14 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 - Turn Off LCD
 - Keyboard Locker
 - VeraCrypt
-- Backspace goes UP
-- F4-is-kill
+- Backspace goes UP (launch at startup)
+- F4-is-kill (launch at startup)
 
 7. Set $PATH for portables:
 - ffmpeg
 - Turn Off LCD
 - Keyboard Locker
 - VeraCrypt
-- Backspace goes UP
-- F4-is-kill
 
 8. Additional Configuration:
 - Disable F1 Help Menu
@@ -100,7 +98,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ## Todo:
 - Write out all the necessary commands for installing all the programs via CLI. If it's not possible put them in a list for manual installation.
-- Put those commands into `.sh` and `.ps1` files and completely automate the process.
+- Put those commands into `.bat` and `.ps1` files and completely automate the process.
 
 ---
 *Where did the good ol' win7 go :(*
